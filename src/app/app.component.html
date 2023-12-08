@@ -136,7 +136,7 @@
   }
 
   .card.card.highlight-card span {
-    margin-left: 60px;
+    margin-left: 160px;
   }
 
   svg#rocket {
@@ -291,15 +291,30 @@
       visibility: hidden;
     }
   }
+
+   
 </style>
+
+<p>
+  <mat-toolbar color="primary" *ngIf="isMenuRequired" role="banner">
+      <span>Welcome</span>
+      <span class="example-spacer"></span>
+      <button mat-raised-button="mat-raised-button" color="primary" routerLink="">Home</button>
+      <button mat-raised-button="mat-raised-button" color="primary" routerLink="/user">User</button>
+      <div class="spacer"></div>
+      <button mat-raised-button="mat-raised-button" color="primary" routerLink="/login">Logout</button>
+  </mat-toolbar>
+</p>
+
+
 <!-- Toolbar -->
-<div class="toolbar" *ngIf="isMenuRequired" role="banner">
+<!-- <div class="toolbar" *ngIf="isMenuRequired" role="banner">
   <span>Welcome</span>
-  <a routerLink="">Home</a>
-  <a routerLink="/user">User</a>
+  <span routerLink="">Home</span>
+  <span routerLink="/user">User</span>
   <div class="spacer"></div>
-  <a routerLink="/login">Logout</a>
-</div>
+  <span routerLink="/login">Logout</span>
+</div> -->
 
 <div class="content" style="width: 100%; display: block;" role="main">
   <router-outlet></router-outlet>

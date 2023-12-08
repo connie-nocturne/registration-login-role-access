@@ -13,9 +13,11 @@ export class LoginComponent {
 
   constructor(private builder: FormBuilder, private toastr:ToastrService,
     private service:AuthService, private router:Router) {
+      sessionStorage.clear();
 
   }
   userData : any;
+
   loginForm = this.builder.group({
     username:this.builder.control('', Validators.required),
     password:this.builder.control('', Validators.required)

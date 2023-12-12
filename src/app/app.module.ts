@@ -12,10 +12,10 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { UserlistingComponent } from './userlisting/userlisting.component';
-import { UpdatepopupComponent } from './updatepopup/updatepopup.component'
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import { UpdatePopupComponent } from './update-popup/update-popup.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +23,7 @@ import {MatButtonModule} from '@angular/material/button';
     LoginComponent,
     HomeComponent,
     UserlistingComponent,
-    UpdatepopupComponent
+    UpdatePopupComponent
   ],
   imports: [
     BrowserModule,

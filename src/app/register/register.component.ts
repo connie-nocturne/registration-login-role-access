@@ -24,7 +24,7 @@ export class RegisterComponent {
     gender: this.builder.control('male'),
     role: this.builder.control(''),
     isActive: this.builder.control(false)
-  })
+  });
 
   proceedRegistration(){
     if(this.registerForm.valid){

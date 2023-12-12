@@ -7,10 +7,70 @@
       "email": "test@gmail.com",
       "gender": "male",
       "role": "admin",
-      "isActive": true,
-      "address": {
-        "area": "Austin"
-      }
+      "isActive": true
+    },
+    {
+      "id": "Connie",
+      "name": "Connie Chan",
+      "password": "123456",
+      "email": "test1@gmail.com",
+      "gender": "female",
+      "role": "admin",
+      "isActive": true
+    },
+    {
+      "id": "Andres",
+      "name": "Andres Chan",
+      "password": "123456",
+      "email": "test2@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isActive": true
+    },
+    {
+      "id": "Vane",
+      "name": "Vane Chan",
+      "password": "123456",
+      "email": "test3@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isActive": false
+    },
+    {
+      "id": "Papi",
+      "name": "Papi Chan",
+      "password": "123456",
+      "email": "test4@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isActive": false
+    },
+    {
+      "id": "Shami",
+      "name": "Shami Chan",
+      "password": "123456",
+      "email": "test5@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isActive": true
+    },
+    {
+      "id": "Ponyo",
+      "name": "Ponyo Chan",
+      "password": "123456",
+      "email": "test6@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isActive": true
+    },
+    {
+      "id": "conniechan",
+      "name": "connie",
+      "password": "Test$1234",
+      "email": "connie@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isActive": true
     }
   ]
 }

@@ -1,0 +1,12 @@
+div {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin-right: auto;
+}
+
+button {
+  margin-left: auto;
+}
